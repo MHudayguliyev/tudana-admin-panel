@@ -1,0 +1,27 @@
+type MaterialList = {
+  row_id: number;
+  attribute_guid: string;
+  attribute_name: string;
+  mtrl_guid: string;
+  mtrl_name: string;
+  mtrl_full_name: string;
+  mtrl_type_name: string;
+  mtrl_desc: string;
+  unit_det_name: string;
+  unit_det_numerator: number;
+  unit_det_dominator: number;
+  price_guid: string;
+  price_value: any;
+  price_total: string;
+  amount: number;
+  price_type_guid: string;
+  price_type_name: string;
+  group_guid: string;
+  image: string;
+  changedPrice?: number;
+  priceType?: string;
+  ord_line_desc?: string;
+  stock_amount: number;
+  line_row_id_front: number;
+};
+export default MaterialList;

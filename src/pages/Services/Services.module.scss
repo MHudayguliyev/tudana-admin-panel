@@ -1,0 +1,50 @@
+@use '../../styles/global.scss';
+
+.client__container {
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  gap: 6px;
+  margin: 6px 0;
+}
+
+.form__control {
+  display: flex;
+  justify-content: center;
+}
+
+.the__form{
+  border-radius: 15px;
+  box-shadow: var(--box-shadow-light);
+  width: 30rem;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+}
+
+
+.inputInner {
+  width: 400px;
+  position: relative;
+  padding: 9px 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.input__label {
+  // border: 1px solid red;
+  width: 400px;
+  padding: 10px 0 6px 6px;
+  font-size: 17px;
+}
+
+.expandArea {
+  // border: 1px solid red;
+  width: 400px;
+  margin: 10px 0 0 0
+}
